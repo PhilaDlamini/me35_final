@@ -1,15 +1,13 @@
 This repository documents all of the code used for ME35's Final Project. 
-Refer here to an in-depth discussion of the Project and its goals 
+Refer here (https://grey-crop-087.notion.site/Final-Project-5d4afffafaf5462dba6e2296a2002d38?pvs=4) for an in-depth discussion of the project and its goals 
 
 File descriptions: 
-cv.py - Performs image processing to locate the bone and second the inverse 
-kinematics (angles) to the Hub
-lego.py - Listens for angles and moves the motors to those angels to pickup the
-bone
-BLE_CEEO.py - The bluetooth used in lego.py 
+cv.py - Performs image processing to locate the bone and send the calculated angles to the Hub
+lego.py - Listens for angle data and moves the motors to those angles to pickup the bone
+BLE_CEEO.py - The bluetooth library used in lego.py 
 
 Libraries used: 
 OpenCV - for image processing 
 BLE_CEEO - for bluetooth communication (running on the Hub)
 Bleak - for bluetooth communication (running on the Mac)
-The Spike PRIME coding library  
+The Lego Spike PRIME Platform  
